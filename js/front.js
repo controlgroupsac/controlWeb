@@ -1,3 +1,13 @@
+/**/
+/**/
+/*Control Group SAC*/
+/*Navbar*/
+$(function() {
+	$("#menu").load("navbar.html");
+});
+/**/
+/**/
+
 if ($.cookie("theme_csspath")) {
     $('link#theme-stylesheet').attr("href", $.cookie("theme_csspath"));
 }

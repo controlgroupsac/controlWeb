@@ -3,7 +3,8 @@
 /*Control Group SAC*/
 /*Navbar*/
 $(function() {
-	$("#menu").load("navbar.html");
+	$("#navbar_control").load("navbar.html");
+	$("#footer_control").load("footer.html");
 });
 /**/
 /**/
